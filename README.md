@@ -8,7 +8,6 @@ _/  |______  |  | __ ____ |__|  |__   ____
  |__| (____  /__|_ \\___  >__|___|  /___|  /
            \/     \/    \/        \/     \/ 
    Subdomain Takeover Detector — iihhn. v1.0.0
-'''
 </pre>  
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
