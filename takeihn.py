@@ -588,7 +588,7 @@ def main():
                 for r, dang_type, resolver_val in results:
                     if not r.get('provider'):
                         continue
-                    fh.write(one_line_format(r['host'], dang_type, resolver_val, r.get('provider',''), r.get('status'), args) + ' ')
+                    fh.write(one_line_format(r['host'], dang_type, resolver_val, r.get('provider',''), r.get('status'), args) + '\n')
             console.print(f"[magenta]Results saved to: {args.output}[/magenta]")
 
         console.print(f"[cyan]Scan finished in {duration:.1f}s — scanned {total}, potential takeovers: {len(vulnerable)}[/cyan]")
