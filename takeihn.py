@@ -535,7 +535,7 @@ def one_line_format(host: str, dang_type: Optional[str], resolver_val: str, prov
 
 def main():
     args = parse_args()
-    console.print(Panel(Text(BANNER), title="takeihn", expand=False))
+    console.print(Panel(Text(BANNER, style="red"), title="[bold red]takeihn", expand=False))
 
     session = setup_requests_session(retries=1, backoff=0.2)
 
