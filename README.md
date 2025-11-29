@@ -136,7 +136,7 @@ At a high level:
 
 ### 1. Clone
 ```
-git clone https://github.com/<yourname>/takeihn.git
+git clone https://github.com/ihsanlearn/takeihn.git
 cd takeihn
 ```
 
