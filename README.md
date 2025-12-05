@@ -7,14 +7,14 @@ _/  |______  |  | __ ____ |__|  |__   ____
  |  |  / __ \|    <\  ___/|  |   Y  \   |  \
  |__| (____  /__|_ \\___  >__|___|  /___|  /
            \/     \/    \/        \/     \/ 
-   Subdomain Takeover Detector — iihhn. v1.0
+   Subdomain Takeover Scanner
 </pre>  
 
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-stable-brightgreen)
-![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey)
-![PRs](https://img.shields.io/badge/PRs-welcome-magenta)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT">
+  <img src="https://img.shields.io/badge/Async-Powered-purple?style=for-the-badge&logo=python" alt="Async Powered">
+</p>
 
 **A fast, accurate, and extensible subdomain takeover detector built by iihhn.**  
 Fully supports HTTP fingerprints, DNS dangling checks (A, AAAA, CNAME),  
